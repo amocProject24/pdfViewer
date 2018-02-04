@@ -7,24 +7,19 @@ import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.webkit.WebView;
 import android.widget.ArrayAdapter;
-import android.widget.BaseAdapter;
-import android.widget.GridView;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
 
 /**
- * Created by Admin1 on 2/3/2018.
+ * Created by Admin1 on 2/4/2018.
  */
 
-public class SubjectAdapter extends ArrayAdapter<String> {
-
+public class BookAdapter extends ArrayAdapter<String>{
     int colorResourceId;
 
-    public SubjectAdapter(Activity context, int resource, ArrayList<String> subjectList){
+    public BookAdapter(Activity context, int resource, ArrayList<String> subjectList){
         super(context,0,subjectList);
         colorResourceId=resource;
     }
@@ -33,28 +28,26 @@ public class SubjectAdapter extends ArrayAdapter<String> {
     public View getView(int position, View convertView, ViewGroup parent){
         View listItemView = convertView;
         if(listItemView == null){
-            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.subject_list,parent,false);
+            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.activity_book_list,parent,false);
         }
 
         final String textView = getItem(position);
-        TextView defaultWordView = (TextView) listItemView.findViewById(R.id.subject_name);
+        TextView defaultWordView = (TextView) listItemView.findViewById(R.id.book_name);
         defaultWordView.setText(textView);
 
         defaultWordView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(textView.equals("Data Structures and Algorithms")) {
-                    Intent webIntent = new Intent(getContext(), DataStructure.class);
-                    getContext().startActivity(webIntent);
-                }
-                if(textView.equals("Computer Organization")) {
-                    Intent webIntent = new Intent(getContext(), ComputerOrganization.class);
-                    getContext().startActivity(webIntent);
-                }
+                Intent webIntent = new Intent(getContext(),WebViewActivity.class);
+                Bundle bundle = new Bundle();
+                bundle.putString("bookName",textView);
+
+                webIntent.putExtras(bundle);
+                getContext().startActivity(webIntent);
             }
         });
 
-        View textContainer = (View) listItemView.findViewById(R.id.subject_name);
+        View textContainer = (View) listItemView.findViewById(R.id.book_name);
         int color = ContextCompat.getColor(getContext(),colorResourceId);
         textContainer.setBackgroundColor(color);
 

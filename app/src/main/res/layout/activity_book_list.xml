@@ -8,7 +8,7 @@
     >
 
     <TextView
-        android:id="@+id/subject_name"
+        android:id="@+id/book_name"
         android:gravity="center"
         android:textStyle="bold"
         android:textColor="#FFFFFF"

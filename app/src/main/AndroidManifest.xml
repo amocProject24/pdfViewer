@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.exam.pdfviewer">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,10 +18,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FirstYear" android:label="First Year"/>
-        <activity android:name=".SecondYear" android:label="Second Year"/>
-        <activity android:name=".ThirdYear"  android:label="Third Year"/>
-        <activity android:name=".FinalYear" android:label="Final Year"></activity>
+        <activity
+            android:name=".FirstYear"
+            android:label="First Year" />
+        <activity
+            android:name=".SecondYear"
+            android:label="Second Year" />
+        <activity
+            android:name=".ThirdYear"
+            android:label="Third Year" />
+        <activity
+            android:name=".FinalYear"
+            android:label="Final Year" />
+        <activity android:name=".WebViewActivity" />
+        <activity android:name=".BookList" />
+        <activity android:name=".DataStructure" />
+        <activity android:name=".ComputerOrganization"></activity>
     </application>
 
 </manifest>

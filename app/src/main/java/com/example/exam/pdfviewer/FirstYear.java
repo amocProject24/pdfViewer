@@ -8,6 +8,8 @@ import java.util.ArrayList;
 
 public class FirstYear extends AppCompatActivity {
 
+    public ArrayList<String> subjectList = new ArrayList<String>();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
