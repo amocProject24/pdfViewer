@@ -3,4 +3,8 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="firstYear">#FD8E09</color>
+    <color name="secondYear">#379237</color>
+    <color name="thirdYear">#8800A0</color>
+    <color name="finalYear">#16AFCA</color>
 </resources>

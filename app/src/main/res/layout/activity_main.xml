@@ -16,7 +16,7 @@
         android:gravity="center"
         android:textColor="#FFF"
         android:textStyle="bold"
-        android:background="#FD8E09"
+        android:background="@color/firstYear"
         android:text="First Year" />
 
     <TextView
@@ -27,7 +27,7 @@
         android:textColor="#FFFFFF"
         android:textStyle="bold"
         android:gravity="center"
-        android:background="#379237"
+        android:background="@color/secondYear"
         android:text="Second Year" />
 
     <TextView
@@ -38,7 +38,7 @@
         android:gravity="center"
         android:textColor="#FFF"
         android:textStyle="bold"
-        android:background="#8800A0"
+        android:background="@color/thirdYear"
         android:text="Third Year" />
 
     <TextView
@@ -49,7 +49,7 @@
         android:gravity="center"
         android:textColor="#FFF"
         android:textStyle="bold"
-        android:background="#16AFCA"
+        android:background="@color/finalYear"
         android:text="Fourth Year" />
 
 </LinearLayout>
