@@ -20,8 +20,25 @@ public class WebViewActivity extends AppCompatActivity {
         webView.getSettings().setPluginState(WebSettings.PluginState.ON);
         webView.setWebViewClient(new Callback());
         Bundle bundle = getIntent().getExtras();
+
         String bookName = bundle.getString("bookName");
+        String pdfURL = getUrl(bookName);
+
+        webView.loadUrl("http://docs.google.com/gview?embedded=true&url=" + pdfURL);
+    }
+
+    private class Callback extends WebViewClient {
+        @Override
+        public boolean shouldOverrideUrlLoading(
+                WebView view, String url) {
+            return(false);
+        }
+    }
+
+    private static String getUrl(String bookName) {
+
         String pdfURL;
+
         //Data Structures
         if(bookName.equals("Introduction to Algorithms by T. H. Cormen, C. E. Leiserson, R. L. Rivest")) {
             pdfURL = "http://ressources.unisciel.fr/algoprog/s00aaroot/aa00module1/res/%5BCormen-AL2011%5DIntroduction_To_Algorithms-A3.pdf";
@@ -48,14 +65,8 @@ public class WebViewActivity extends AppCompatActivity {
         else{
             pdfURL="https://theswissbay.ch/pdf/Gentoomen%20Library/Data%20Structures/Data%20Structures%20and%20Program%20Design%20in%20C%2B%2B%20-%20Robert%20L.%20Kruse.pdf";
         }
-        webView.loadUrl("http://docs.google.com/gview?embedded=true&url=" + pdfURL);
-    }
 
-    private class Callback extends WebViewClient {
-        @Override
-        public boolean shouldOverrideUrlLoading(
-                WebView view, String url) {
-            return(false);
-        }
+        return pdfURL;
     }
 }
+

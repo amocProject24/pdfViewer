@@ -43,12 +43,47 @@ public class SubjectAdapter extends ArrayAdapter<String> {
         defaultWordView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                // Sem 3
                 if(textView.equals("Data Structures and Algorithms")) {
                     Intent webIntent = new Intent(getContext(), DataStructure.class);
                     getContext().startActivity(webIntent);
                 }
                 if(textView.equals("Computer Organization")) {
                     Intent webIntent = new Intent(getContext(), ComputerOrganization.class);
+                    getContext().startActivity(webIntent);
+                }
+                if(textView.equals("Digital Circuits")) {
+                    Intent webIntent = new Intent(getContext(), DigitalCircuits.class);
+                    getContext().startActivity(webIntent);
+                }
+                if(textView.equals("Discrete Mathematics")) {
+                    Intent webIntent = new Intent(getContext(), DiscreteMaths.class);
+                    getContext().startActivity(webIntent);
+                }
+                if(textView.equals("Electrical Networks")) {
+                    Intent webIntent = new Intent(getContext(), NetworkAnalysis.class);
+                    getContext().startActivity(webIntent);
+                }
+
+                // Sem4
+                if(textView.equals("Theoretical Computer Science")) {
+                    Intent webIntent = new Intent(getContext(), TCS.class);
+                    getContext().startActivity(webIntent);
+                }
+                if(textView.equals("Database Management Systems")) {
+                    Intent webIntent = new Intent(getContext(), DBMS.class);
+                    getContext().startActivity(webIntent);
+                }
+                if(textView.equals("Engineering Mathematics III")) {
+                    Intent webIntent = new Intent(getContext(), EM3.class);
+                    getContext().startActivity(webIntent);
+                }
+                if(textView.equals("Communication Systems")) {
+                    Intent webIntent = new Intent(getContext(), CommunicationSystem.class);
+                    getContext().startActivity(webIntent);
+                }
+                if(textView.equals("Control Systems")) {
+                    Intent webIntent = new Intent(getContext(), ControlSystem.class);
                     getContext().startActivity(webIntent);
                 }
             }

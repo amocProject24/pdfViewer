@@ -32,8 +32,19 @@
             android:label="Final Year" />
         <activity android:name=".WebViewActivity" />
         <activity android:name=".BookList" />
+
         <activity android:name=".DataStructure" />
-        <activity android:name=".ComputerOrganization"></activity>
+        <activity android:name=".ComputerOrganization" />
+        <activity android:name=".DigitalCircuits"/>
+        <activity android:name=".DiscreteMaths"/>
+        <activity android:name=".NetworkAnalysis"/>
+
+        <activity android:name=".TCS"/>
+        <activity android:name=".DBMS"/>
+        <activity android:name=".EM3"/>
+        <activity android:name=".CommunicationSystem"/>
+        <activity android:name=".ControlSystem"/>
+
     </application>
 
 </manifest>
