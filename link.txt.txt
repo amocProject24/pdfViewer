@@ -1,0 +1,29 @@
+DC(Morris Mano):
+https://viden.io/knowledge/114/attachments/427?name=viden-K105-Digital+Logic+And+Computer+Design+By+M.+Morris+Mano+%282nd+Edition%29.pdf
+
+---
+
+Network :
+http://www.csun.edu/~ih20409/SCHOOL1/BALABANIAN16.pdf
+
+---
+
+DMS(Rosen KH):
+http://www2.fiit.stuba.sk/~kvasnicka/Mathematics%20for%20Informatics/Rosen_Discrete_Mathematics_and_Its_Applications_7th_Edition.pdf
+
+xxxx
+
+TCS (John E. Hopcroft, Rajeev Motwani, Jeffrey Ullman: “Introduction to Automata theory, languages computation):
+http://infocat.ucpel.tche.br/disc/lfa/docs/IAT.pdf
+
+---
+
+DBMS (Silbersachtz):
+https://inspirit.net.in/books/database/Database%20System%20Concepts.pdf
+
+---
+
+Commu System (BP Lathi):
+http://bayanbox.ir/view/914409083519889086/Book-Modern-Digital-And-Analog-Communication-Systems-4th-edition-by-Lathi.pdf
+
+---
