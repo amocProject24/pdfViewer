@@ -1,6 +1,7 @@
 package com.example.exam.pdfviewer;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.TestLooperManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -24,8 +25,10 @@ public class MainActivity extends AppCompatActivity {
         firstYear.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent firstYearIntent = new Intent(MainActivity.this,FirstYear.class);
-                startActivity(firstYearIntent);
+                /*Intent firstYearIntent = new Intent(MainActivity.this,FirstYear.class);
+                startActivity(firstYearIntent);*/
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://web.ist.utl.pt/~fabio.ferreira/material/asa/clrs.pdf"));
+                startActivity(browserIntent);
             }
         });
 
