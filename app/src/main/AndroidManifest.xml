@@ -45,6 +45,9 @@
         <activity android:name=".CommunicationSystem"/>
         <activity android:name=".ControlSystem"/>
 
+        <activity android:name=".Physics"/>
+        <activity android:name=".Chemistry"/>
+
     </application>
 
 </manifest>

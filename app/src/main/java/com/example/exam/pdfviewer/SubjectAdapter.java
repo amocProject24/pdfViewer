@@ -43,6 +43,15 @@ public class SubjectAdapter extends ArrayAdapter<String> {
         defaultWordView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //Sem 1
+                if(textView.equals("Engineering Physics")) {
+                    Intent webIntent = new Intent(getContext(), Physics.class);
+                    getContext().startActivity(webIntent);
+                }
+                if(textView.equals("Engineering Chemistry")) {
+                    Intent webIntent = new Intent(getContext(), Chemistry.class);
+                    getContext().startActivity(webIntent);
+                }
                 // Sem 3
                 if(textView.equals("Data Structures and Algorithms")) {
                     Intent webIntent = new Intent(getContext(), DataStructure.class);

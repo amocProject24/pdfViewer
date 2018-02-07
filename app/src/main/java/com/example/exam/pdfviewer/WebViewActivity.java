@@ -62,6 +62,46 @@ public class WebViewActivity extends AppCompatActivity {
         else if(bookName.equals("Computer Organization by Hamacher")){
             pdfURL = "http://www.staroceans.org/kernel-and-driver/Computeranization%20And%20Embedded%20Systems,%20Hamacher,%20Vranesic,%20Zaky,%20Manjikian,%206Ed,%20Mgh,%202012.pdf";
         }
+        //Digital Circuits
+        else if(bookName.equals("Digital Logic and Computer Design by Morris Mano")){
+            pdfURL="https://viden.io/knowledge/114/attachments/427?name=viden-K105-Digital+Logic+And+Computer+Design+By+M.+Morris+Mano+%282nd+Edition%29.pdf";
+        }
+        //Electrical Network
+        else if(bookName.equals("Network Analysis")){
+            pdfURL="http://www.csun.edu/~ih20409/SCHOOL1/BALABANIAN16.pdf";
+        }
+        //Discrete Mathematics
+        else if(bookName.equals("Discrete Maths by Rosen K.H.")){
+            pdfURL="http://www2.fiit.stuba.sk/~kvasnicka/Mathematics%20for%20Informatics/Rosen_Discrete_Mathematics_and_Its_Applications_7th_Edition.pdf";
+        }
+        //TCS
+        else if(bookName.equals("Theoretical Computer science")){
+            pdfURL="http://infocat.ucpel.tche.br/disc/lfa/docs/IAT.pdf";
+        }
+        //DBMS
+        else if(bookName.equals("DataBase Management by Korth,Silbersachtz")){
+            pdfURL="https://inspirit.net.in/books/database/Database%20System%20Concepts.pdf";
+        }
+        //Control Systems
+        else if(bookName.equals("Automatic Control System")){
+            pdfURL="http://mirror.thelifeofkenneth.com/lib/electronics_archive/Kuo-AutomaticControlSystems.pdf";
+        }
+        //Comm Systems
+        else if(bookName.equals("Communication System")){
+            pdfURL="http://bayanbox.ir/view/914409083519889086/Book-Modern-Digital-And-Analog-Communication-Systems-4th-edition-by-Lathi.pdf";
+        }
+        //Engineering Maths 3
+        else if(bookName.equals("Engineering Mathematics by E.Kreysizg")){
+            pdfURL="https://www-elec.inaoep.mx/~jmram/Kreyzig-ECS-DIF1.pdf";
+        }
+        //Engineering Physics
+        else if(bookName.equals("Physics by R. Resnick and D. Halliday")){
+            pdfURL="https://claudiacscif.files.wordpress.com/2015/05/fundamentals-of-physics-textbook.pdf";
+        }
+        //Engineering Chemistry
+        else if(bookName.equals("Engineering Chemistry by Vogel A.I., and Mendham J")){
+            pdfURL="http://www.ufpa.br/quimicanalitica/Vogel's%20-%20Textbook%20of%20quantitative%20chemical%20analysis%20(5th%20Edition;%20Longmann).pdf";
+        }
         else{
             pdfURL="https://theswissbay.ch/pdf/Gentoomen%20Library/Data%20Structures/Data%20Structures%20and%20Program%20Design%20in%20C%2B%2B%20-%20Robert%20L.%20Kruse.pdf";
         }

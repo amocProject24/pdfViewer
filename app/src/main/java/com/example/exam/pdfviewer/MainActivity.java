@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 /*Intent firstYearIntent = new Intent(MainActivity.this,FirstYear.class);
                 startActivity(firstYearIntent);*/
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://web.ist.utl.pt/~fabio.ferreira/material/asa/clrs.pdf"));
+                Intent browserIntent = new Intent(MainActivity.this,FirstYear.class);
                 startActivity(browserIntent);
             }
         });
