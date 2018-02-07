@@ -95,6 +95,27 @@ public class SubjectAdapter extends ArrayAdapter<String> {
                     Intent webIntent = new Intent(getContext(), ControlSystem.class);
                     getContext().startActivity(webIntent);
                 }
+                //sem 5
+                if(textView.equals("Microprocessor and Interfacing Techniques")) {
+                    Intent webIntent = new Intent(getContext(), Mit.class);
+                    getContext().startActivity(webIntent);
+                }
+                if(textView.equals("Design and Analysis of Algorithms")) {
+                    Intent webIntent = new Intent(getContext(), DAAA.class);
+                    getContext().startActivity(webIntent);
+                }
+                if(textView.equals("Artificial Intelligence and Machine Learning")) {
+                    Intent webIntent = new Intent(getContext(), artificialintell.class);
+                    getContext().startActivity(webIntent);
+                }
+                if(textView.equals("Computer Networks")) {
+                    Intent webIntent = new Intent(getContext(), compnetwork.class);
+                    getContext().startActivity(webIntent);
+                }
+                if(textView.equals("Software Tools 3")) {
+                    Intent webIntent = new Intent(getContext(), sw3.class);
+                    getContext().startActivity(webIntent);
+                }
             }
         });
 

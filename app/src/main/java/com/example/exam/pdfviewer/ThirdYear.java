@@ -19,6 +19,7 @@ public class ThirdYear extends AppCompatActivity {
         subjectList.add("Design and Analysis of Algorithms");
         subjectList.add("Artificial Intelligence and Machine Learning");
         subjectList.add("Computer Networks");
+        subjectList.add("Software Tools 3");
         subjectList.add("EIS - I");
         subjectList.add("Operating Systems");
         subjectList.add("System Software");

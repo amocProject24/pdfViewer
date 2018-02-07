@@ -102,9 +102,57 @@ public class WebViewActivity extends AppCompatActivity {
         else if(bookName.equals("Engineering Chemistry by Vogel A.I., and Mendham J")){
             pdfURL="http://www.ufpa.br/quimicanalitica/Vogel's%20-%20Textbook%20of%20quantitative%20chemical%20analysis%20(5th%20Edition;%20Longmann).pdf";
         }
+        //mit
+        else if(bookName.equals("Brey, The Intel Microprocessors")){
+            pdfURL="https://userpages.umbc.edu/~squire/intel_book.pdf";
+        }
+        //daaa
+        else if(bookName.equals("Introduction to Algorithms Cormen, Leiserson")){
+            pdfURL="http://ressources.unisciel.fr/algoprog/s00aaroot/aa00module1/res/%5BCormen-AL2011%5DIntroduction_To_Algorithms-A3.pdf";
+        }
+        else if(bookName.equals("Knuth, Donald E. : The Art of Computer Programming Vol I")){
+            pdfURL="http://broiler.astrometry.net/~kilian/The_Art_of_Computer_Programming%20-%20Vol%201.pdf";
+        }
+        else if(bookName.equals("Knuth, Donald E. :The Art of Computer Programming Vol 3")){
+            pdfURL="https://vivekupadhyay125.files.wordpress.com/2013/08/donald-e-knuth-the-art-of-computer-programming-vol-3.pdf";
+        }
+        else if(bookName.equals("J. Kleinberg, E. Tardos: Algorithm Design")){
+            pdfURL="http://www.icsd.aegean.gr/kaporisa/index_files/Algorithm_Design.pdf";
+        }
+        //artificial
+        else if(bookName.equals("Elaine Rich, K. Knight Artificial Intelligence")){
+            pdfURL="http://www.vumultan.com/Books/CS607-Artificial%20Intelligence%20by%20Rich%20and%20Knight.pdf";
+        }
+        else if(bookName.equals("S. Russell and P. Norvig,  Artificial Intelligence: A Modern Approach")){
+            pdfURL="https://www.ics.uci.edu/~rickl/courses/cs-171/aima-resources/Artificial%20Intelligence%20A%20Modern%20Approach%20(3rd%20Edition).pdf";
+        }
+        else if(bookName.equals("I. Bratko, Prolog Programming for Artificial Intelligence")){
+            pdfURL="https://cdn.preterhuman.net/texts/science_and_technology/artificial_intelligence/PROLOG%20PROGRAMMING%20FOR%20ARTIFICIAL%20INTELLIGENCE%20-%20lvan%20Bratko.pdf";
+        }
+        else if(bookName.equals("C. M. Bishop,  Pattern Recognition and Machine Learning")){
+            pdfURL="http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf";
+        }
+        //compnetwork
+        else if(bookName.equals("Tanenbaum, Computer Network")){
+            pdfURL="https://theswissbay.ch/pdf/Gentoomen%20Library/Networking/Prentice%20Hall%20-%20Computer%20Networks%20Tanenbaum%204ed.pdf";
+        }
+        else if(bookName.equals("William Stalling: Data and Computer Communication")){
+            pdfURL="https://pdfs.semanticscholar.org/5dc8/00b597039e0378230881c8af65849222589c.pdf";
+        }
+        else if(bookName.equals("Douglas E. Comer: Internetworking with TCP/IP Volume - I")){
+            pdfURL="http://cpe.rmutt.ac.th/network/images/cn/[3]Comer_Douglas_Internetworking_with_TCP_IP_Vol.1.pdf";
+        }
+        else if(bookName.equals("B. Forouzan : Data Communication And Networking")){
+            pdfURL="http://library.aceondo.net/ebooks/Computer_Science/Data_Communication_and_Networking_by_Behrouz.A.Forouzan_4th.edition.pdf";
+        }
+        //sw3
+        else if(bookName.equals("Developing Java Servlets by James Goodwill")){
+            pdfURL="http://box.cs.istu.ru/public/docs/other/_Unsorted/new/Java/Pure%20JSP%20(2000,%20Sams).pdf";
+        }
         else{
             pdfURL="https://theswissbay.ch/pdf/Gentoomen%20Library/Data%20Structures/Data%20Structures%20and%20Program%20Design%20in%20C%2B%2B%20-%20Robert%20L.%20Kruse.pdf";
         }
+
 
         return pdfURL;
     }

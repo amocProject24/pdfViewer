@@ -2,10 +2,43 @@ BTECH 3 SEM 5
 
 Microprocessor and Interfacing Techniques:-
 Microprocessors and Interfacing: Programming & Hardware Douglas V Hall   :-  https://books.google.co.in/books?id=Q-1bEe-RTbwC&output=embed&printsec=frontcover&redir_esc=y&source=gbs_ViewAPI#%257B%257D
-
+Brey, The Intel Microprocessors    :-  https://userpages.umbc.edu/~squire/intel_book.pdf
 
 DESIGN AND ANALYSIS OF ALGORITHMS:-
 Introduction to Algorithms Cormen, Leiserson  :-    http://ressources.unisciel.fr/algoprog/s00aaroot/aa00module1/res/%5BCormen-AL2011%5DIntroduction_To_Algorithms-A3.pdf
+Knuth, Donald E. : The Art of Computer Programming Vol I   :-   http://broiler.astrometry.net/~kilian/The_Art_of_Computer_Programming%20-%20Vol%201.pdf
+Knuth, Donald E. :The Art of Computer Programming Vol 3    :-  https://vivekupadhyay125.files.wordpress.com/2013/08/donald-e-knuth-the-art-of-computer-programming-vol-3.pdf
+J. Kleinberg, E. Tardos: Algorithm Design :-    http://www.icsd.aegean.gr/kaporisa/index_files/Algorithm_Design.pdf
+
+
+ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING :-
+Elaine Rich, K. Knight Artificial Intelligence :-   http://www.vumultan.com/Books/CS607-Artificial%20Intelligence%20by%20Rich%20and%20Knight.pdf
+S. Russell and P. Norvig,  Artificial Intelligence: A Modern Approach  :-  https://www.ics.uci.edu/~rickl/courses/cs-171/aima-resources/Artificial%20Intelligence%20A%20Modern%20Approach%20(3rd%20Edition).pdf
+I. Bratko, Prolog Programming for Artificial Intelligence  :-   https://cdn.preterhuman.net/texts/science_and_technology/artificial_intelligence/PROLOG%20PROGRAMMING%20FOR%20ARTIFICIAL%20INTELLIGENCE%20-%20lvan%20Bratko.pdf
+C. M. Bishop,  Pattern Recognition and Machine Learning   :-   http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf
+
+
+
+
+COMPUTER NETWORKS :-
+Tanenbaum, Computer Network   :-    	https://theswissbay.ch/pdf/Gentoomen%20Library/Networking/Prentice%20Hall%20-%20Computer%20Networks%20Tanenbaum%204ed.pdf
+William Stalling: "Data and Computer Communication"   :-   https://pdfs.semanticscholar.org/5dc8/00b597039e0378230881c8af65849222589c.pdf
+Douglas E. Comer: "Internetworking with TCP/IP Volume - I      :-      http://cpe.rmutt.ac.th/network/images/cn/[3]Comer_Douglas_Internetworking_with_TCP_IP_Vol.1.pdf
+B. Forouzan : Data Communication And Networking    :-		http://library.aceondo.net/ebooks/Computer_Science/Data_Communication_and_Networking_by_Behrouz.A.Forouzan_4th.edition.pdf
+
+
+
+software tools 3:-
+Developing Java Servlets by James Goodwill	:-	http://box.cs.istu.ru/public/docs/other/_Unsorted/new/Java/Pure%20JSP%20(2000,%20Sams).pdf
+
+
+
+OPERATING SYSTEMS:-
+Silberschatz, Galvin and Gagne: Operating System Concepts  :- 	http://www.uobabylon.edu.iq/download/M.S%202013-2014/Operating_System_Concepts,_8th_Edition%5BA4%5D.pdf
+W. Stallings: Operating Systems: Internals and Design Principles	:-	http://dinus.ac.id/repository/docs/ajar/Operating_System.pdf
+A Tanenbaum,A Woodhull: Operating Systems - Design and Implementation	:-	https://mcdtu.files.wordpress.com/2017/03/tanenbaum_woodhull_operating-systems-design-implementation-3rd-edition.pdf
+Kernighan & Pike: UNIX programming Environment		:-	http://scis.uohyd.ac.in/~apcs/itw/UNIXProgrammingEnvironment.pdf
+
 
 
 
