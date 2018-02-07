@@ -149,6 +149,48 @@ public class WebViewActivity extends AppCompatActivity {
         else if(bookName.equals("Developing Java Servlets by James Goodwill")){
             pdfURL="http://box.cs.istu.ru/public/docs/other/_Unsorted/new/Java/Pure%20JSP%20(2000,%20Sams).pdf";
         }
+        //os
+        else if(bookName.equals("Silberschatz, Galvin and Gagne: Operating System Concepts")){
+            pdfURL="http://www.uobabylon.edu.iq/download/M.S%202013-2014/Operating_System_Concepts,_8th_Edition%5BA4%5D.pdf";
+        }
+        else if(bookName.equals("W. Stallings: Operating Systems: Internals and Design Principles")){
+            pdfURL="http://dinus.ac.id/repository/docs/ajar/Operating_System.pdf";
+        }
+        else if(bookName.equals("A Tanenbaum,A Woodhull: Operating Systems - Design and Implementation")){
+            pdfURL="https://mcdtu.files.wordpress.com/2017/03/tanenbaum_woodhull_operating-systems-design-implementation-3rd-edition.pdf";
+        }
+        else if(bookName.equals("Kernighan & Pike: UNIX programming Environment")){
+            pdfURL="http://scis.uohyd.ac.in/~apcs/itw/UNIXProgrammingEnvironment.pdf";
+        }
+        //sys soft
+        else if(bookName.equals("A.V.Aho, R.Sethi & J D.Ullman Compilers-Principles, Techniques and Tools")){
+            pdfURL="http://www.informatik.uni-bremen.de/agbkb/lehre/ccfl/Material/ALSUdragonbook.pdf";
+        }
+        else if(bookName.equals("Louden , Kenneth C : Compiler Construction-Principles and Practice")){
+            pdfURL="https://csunplugged.files.wordpress.com/2012/12/compiler-construction-principles-and-practice-k-c-louden-pws-1997-cmp-2002-592s.pdf";
+        }
+        else if(bookName.equals("D. M. Dhamdhere : System Programming and Operating System")){
+            pdfURL="http://civilcafe.weebly.com/uploads/2/8/9/8/28985467/6iplmsdd4swc.pdf";
+        }
+        //comp graphics
+        else if(bookName.equals("Donald Hearn & M. Pauline Baker, Computer Graphics")){
+            pdfURL="http://edu.uokufa.edu.iq/staff/dr.nidhal/compressed%20comp.book/Hearn,Baker%20-%20Computer%20Graphics%20-%20C%20Version%202nd%20Ed.pdf";
+        }
+
+        else if(bookName.equals("James D. Foley, Computer Graphics: Principles and Practice")){
+            pdfURL="http://ptgmedia.pearsoncmg.com/images/9780321399526/samplepages/0321399528.pdf";
+        }
+        //ita
+        else if(bookName.equals("Web Technologies: A Computer Science Perspective, Jeffrey C. Jackson")){
+            pdfURL="https://passhojao.com/attachments/7c8727519c30b8baa05ee92432e1d9ecdb8075d7/store/9f2d8d06296185d04b4eb79f6536879639111d3feef8464d55747a803923/Web+Technologies+-+A+Computer+Science+Perspective+-+J.+Jackson+%28Pearson%2C+2007%29.pdf";
+        }
+        else if(bookName.equals("Web Engineering: A Practitioner’s Approach, Roger Pressman")){
+            pdfURL="https://yslaiseblog.files.wordpress.com/2014/03/pressman-lowe-2009-web-engineering-a-practitioner_s-approach.pdf";
+        }
+        //sw4
+        else if(bookName.equals("Rito Meier, Professional Android 2 Application Development")){
+            pdfURL="http://www.esys.ir/Files/Ref_Books/Android/esys.ir_Professional%20Android%202%20Application%20Development.pdf";
+        }
         else{
             pdfURL="https://theswissbay.ch/pdf/Gentoomen%20Library/Data%20Structures/Data%20Structures%20and%20Program%20Design%20in%20C%2B%2B%20-%20Robert%20L.%20Kruse.pdf";
         }

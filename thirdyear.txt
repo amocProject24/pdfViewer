@@ -40,5 +40,28 @@ A Tanenbaum,A Woodhull: Operating Systems - Design and Implementation	:-	https:/
 Kernighan & Pike: UNIX programming Environment		:-	http://scis.uohyd.ac.in/~apcs/itw/UNIXProgrammingEnvironment.pdf
 
 
+SYSTEM SOFTWARE:-
+A.V.Aho, R.Sethi & J D.Ullman Compilers-Principles, Techniques and Tools	:-	http://www.informatik.uni-bremen.de/agbkb/lehre/ccfl/Material/ALSUdragonbook.pdf
+Louden , Kenneth C : Compiler Construction-Principles and Practice	:-	https://csunplugged.files.wordpress.com/2012/12/compiler-construction-principles-and-practice-k-c-louden-pws-1997-cmp-2002-592s.pdf
+D. M. Dhamdhere : System Programming and Operating System	:-	http://civilcafe.weebly.com/uploads/2/8/9/8/28985467/6iplmsdd4swc.pdf
+
+
+COMPUTER GRAPHICS:-
+Donald Hearn & M. Pauline Baker, Computer Graphics	:-	http://edu.uokufa.edu.iq/staff/dr.nidhal/compressed%20comp.book/Hearn,Baker%20-%20Computer%20Graphics%20-%20C%20Version%202nd%20Ed.pdf
+F. S. Hill, Jr., "Computer Graphics using OpenGL	:-	http://teacher.buet.ac.bd/fatematz/CSE409/computer%20graphics%20using%20open%20gl%20hill%20book%203rd%20edition.pdf
+James D. Foley, "Computer Graphics: Principles and Practice	:-	http://ptgmedia.pearsoncmg.com/images/9780321399526/samplepages/0321399528.pdf
+
+
+INTERNET TECHNOLOGY AND APPLICATIONS:-
+Web Technologies: A Computer Science Perspective, Jeffrey C. Jackson	:-	https://passhojao.com/attachments/7c8727519c30b8baa05ee92432e1d9ecdb8075d7/store/9f2d8d06296185d04b4eb79f6536879639111d3feef8464d55747a803923/Web+Technologies+-+A+Computer+Science+Perspective+-+J.+Jackson+%28Pearson%2C+2007%29.pdf
+Web Engineering: A Practitioner’s Approach, Roger Pressman	:-	https://yslaiseblog.files.wordpress.com/2014/03/pressman-lowe-2009-web-engineering-a-practitioner_s-approach.pdf
+
+
+
+SOFTWARE TOOLS - IV:-
+Rito Meier, Professional Android 2 Application Development	:-	http://www.esys.ir/Files/Ref_Books/Android/esys.ir_Professional%20Android%202%20Application%20Development.pdf
+
+
+
 
 

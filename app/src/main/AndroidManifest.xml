@@ -48,7 +48,12 @@
         <activity android:name=".DAAA" />
         <activity android:name=".artificialintell" />
         <activity android:name=".compnetwork" />
-        <activity android:name=".sw3"></activity>
+        <activity android:name=".sw3" />
+        <activity android:name=".operatingsys" />
+        <activity android:name=".syssoft" />
+        <activity android:name=".compgra" />
+        <activity android:name=".ita" />
+        <activity android:name=".sw4"></activity>
     </application>
 
 </manifest>

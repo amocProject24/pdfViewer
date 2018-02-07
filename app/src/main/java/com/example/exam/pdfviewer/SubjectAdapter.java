@@ -116,6 +116,27 @@ public class SubjectAdapter extends ArrayAdapter<String> {
                     Intent webIntent = new Intent(getContext(), sw3.class);
                     getContext().startActivity(webIntent);
                 }
+                if(textView.equals("Operating Systems")) {
+                    Intent webIntent = new Intent(getContext(), operatingsys.class);
+                    getContext().startActivity(webIntent);
+                }
+                if(textView.equals("System Software")) {
+                    Intent webIntent = new Intent(getContext(), syssoft.class);
+                    getContext().startActivity(webIntent);
+                }
+                if(textView.equals("Computer Graphics")) {
+                    Intent webIntent = new Intent(getContext(), compgra.class);
+                    getContext().startActivity(webIntent);
+                }
+                if(textView.equals("Internet Technology and Applications")) {
+                    Intent webIntent = new Intent(getContext(), ita.class);
+                    getContext().startActivity(webIntent);
+                }
+                if(textView.equals("Software Tools 4")) {
+                    Intent webIntent = new Intent(getContext(), sw4.class);
+                    getContext().startActivity(webIntent);
+                }
+
             }
         });
 
